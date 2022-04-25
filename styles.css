@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-top {
+    flex-grow: 1;
+    
+    background: green;
+}
+
+.page-body {
+    flex-grow: 5;
+    background:rgb(82, 34, 240);
+}
+
+.page-bottom {
+    flex-grow: 2;
+    
+    background: black;
+}
+
+.page-body .section1 {
+    background:rgb(82, 34, 240);
+    height: 33.3%;
+}
+
+.section2 {
+    background: white;
+    flex-grow: 3;
+}
